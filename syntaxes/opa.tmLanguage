@@ -211,7 +211,7 @@
 		<key>keywords</key>
 		<dict>
 			<key>match</key>
-			<string>\b(_|as|do|else|if|match|then|type|with|and|begin|css|db|end|external|forall|import|package|parser|rec|server|val|xml_parser)\b</string>
+			<string>\b(_|as|do|else|if|match|then|type|with|and|begin|css|db|end|external|string|float|int|none|some|option|list|bool|forall|import|package|parser|rec|server|val|xml_parser)\b</string>
 			<key>name</key>
 			<string>keyword.opa</string>
 		</dict>
