@@ -1,0 +1,26 @@
+{
+    "name": "opa",
+    "displayName": "language-opa-ocaml-vscode",
+    "description": "Opa OCAML-based syntax language support in VSCode",
+    "version": "0.0.1",
+    "publisher": "gogson",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "opa",
+            "aliases": ["Opa", "opa"],
+            "extensions": [".opa"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "opa",
+            "scopeName": "source.opa",
+            "path": "./syntaxes/opa.tmLanguage"
+        }]
+    }
+}
