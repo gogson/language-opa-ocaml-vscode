@@ -3,7 +3,7 @@
     "displayName": "Opa (OCAML)",
     "description": "Opa OCAML-based syntax language support in VSCode",
     "icon": "images/opa-logo.png",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "gogson",
     "galleryBanner": {
 	"color": "#27AEB6",
